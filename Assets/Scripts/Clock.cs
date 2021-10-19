@@ -25,18 +25,10 @@ public class Clock : MonoBehaviour
 
     void Update()
     {
-        if(Menu.IsActive == false)
+        if(Menu.IsActive == false && Controls.BestRes.activeInHierarchy==false)
         {
             Value += Time.deltaTime;
             time.text = StringValue;
         }
-
-
-        //string minutes, seconds;
-        //if ((int)Value / 60 < 10) minutes = "0" + (int)Value / 60;
-        //else minutes = (int)Value / 60 + "";
-        //if ((int)Value % 60 < 10) seconds = "0" + (int)Value % 60;
-        //else seconds = (int)Value / 60 + "";
-        //time.text = minutes + ":" + seconds;
     }
 }

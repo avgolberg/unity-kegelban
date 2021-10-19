@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGameResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GameResult>
+    <Balls>1</Balls>
+    <Time>6.86209</Time>
+  </GameResult>
+  <GameResult>
+    <Balls>1</Balls>
+    <Time>8.611843</Time>
+  </GameResult>
+  <GameResult>
+    <Balls>1</Balls>
+    <Time>8.77912</Time>
+  </GameResult>
+  <GameResult>
+    <Balls>1</Balls>
+    <Time>8.893458</Time>
+  </GameResult>
+  <GameResult>
+    <Balls>1</Balls>
+    <Time>11.10847</Time>
+  </GameResult>
+</ArrayOfGameResult>
